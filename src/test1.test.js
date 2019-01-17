@@ -1,10 +1,10 @@
 import React from 'react';
 import {mount} from 'enzyme';
-import App from './App';
+import Test1 from './Test1';
 
 it('should render b', () => {
   console.log('window wdith is ' + window.innerWidth);
-  let wrapper = mount(<App />);
+  let wrapper = mount(<Test1 />);
   console.log(wrapper.debug());
   window.resizeTo(2000, 2000);
   console.log('window width is ' + window.innerWidth);

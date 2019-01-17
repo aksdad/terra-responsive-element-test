@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ResponsiveElement from 'terra-responsive-element/lib/ResponsiveElement';
 import './App.css';
 
-class App extends Component {
+class Test1 extends Component {
 
   render() {
     const var1 = (
@@ -24,4 +24,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Test1;
